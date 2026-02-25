@@ -1,0 +1,33 @@
+function Footer() {
+
+    let data = new Date().getFullYear();
+
+    return (
+        <>
+            <div className="flex justify-center bg-orange-500 text-white">
+                <div className="container flex flex-col items-center py-12">
+                    <p className='text-xl font-bold'>
+                        Projeto Desenvolvimento por: Matheus Alan | Copyright: {data}
+                    </p>
+
+                </div>
+            </div>
+        </>
+    )
+
+}
+export default Footer;
+
+
+                    // <p className='text-lg'>Acesse nossas redes sociais</p>
+                    // <div className='flex gap-2'>
+                    //     <a href="https://www.linkedin.com/in/matheualan" target="_blank">
+                    //         {/* <LinkedinLogoIcon size={48} weight='bold' /> */}
+                    //     </a>
+                    //     <a href="https://www.instagram.com/mths_apv" target="_blank">
+                    //         {/* <InstagramLogoIcon size={48} weight='bold' /> */}
+                    //     </a>
+                    //     <a href="https://www.facebook.com/matheusalanpv" target="_blank">
+                    //         {/* <FacebookLogoIcon size={48} weight='bold' /> */}
+                    //     </a>
+                    // </div>

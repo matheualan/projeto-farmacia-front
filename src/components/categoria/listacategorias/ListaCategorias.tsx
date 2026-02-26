@@ -1,7 +1,7 @@
 import CardCategoria from "../cardcategoria/CardCategoria";
 import { useEffect, useState } from "react";
 import type { Categoria } from "../../../models/Categoria";
-import { buscar } from "../../../service/Service";
+import { buscar } from "../../../services/Service";
 import { SyncLoader } from "react-spinners";
 
 function ListaCategorias() {

@@ -12,7 +12,7 @@ function Navbar() {
 
                     <div className='font-bold flex gap-4'>
                         <Link to='/categorias' className='hover:opacity-80'>Categorias</Link>
-                        <p className="hover:opacity-80">Produtos</p>
+                        <Link to='/cadastrarcategoria' className='hover:opacity-80'>Cadastrar Categoria</Link>
                         <p className="hover:opacity-80">Fale Conosco</p>
                     </div>
                 </div>
